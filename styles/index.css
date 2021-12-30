@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+h2{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.subtitle{
+    margin-top: 3rem;
+    width: 60%;
+}
+
+.footer{
+    width: 100%;
+bottom: 0;
+font-family: Arial, Helvetica, sans-serif;
+position: fixed;
+display: flex;
+justify-content: center;
+}
+
+.btn-cont{
+    display: flex;
+    justify-content: space-around;
+    width: 40rem;
+}
+
+.button{
+    color: white;
+    background-color: purple;
+    border-radius: 10px;
+    border: 2px;
+    height: 3rem;
+    border-color: white;
+
+    width: 10rem;
+}

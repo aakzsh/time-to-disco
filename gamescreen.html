@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Game</title>
+    <link rel="stylesheet" href="styles/game.css">
   </head>
   <script>
     var count = 1;
@@ -34,9 +35,10 @@
         font-size: 16px;
         margin: 4px 2px;
         cursor: pointer;
+        border-radius: 6px;
       }
       .buttony {
-
+        
         border: none;
         color: white;
         height: 70px;
@@ -53,19 +55,10 @@
       .button3 {background-color: #A02422;} /* Green */
       .buttonx {background-color: Blue;}
         .button5 {background-color: #00000000;}
-        body {background-image :url('https://i.ibb.co/hMnWsts/logowev.jpg') ;}
-        body, html {
-        height: 100%;
-        background: url("https://i.ibb.co/hMnWsts/logowev.jpg") no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        }
-
+      
     </style>
 
-    <h2>Play your favourite song and start</h2>
+    <center><h2 style="font-family:Arial, Helvetica, sans-serif;">Play your favourite song and start</h2></center>
     <center>
       <audio controls>
       <source src="http://docs.google.com/uc?export=open&id=1233VttjykNb5KxMPp6zLJ2mCB9Nulzsi" type="audio/mp3">
@@ -79,7 +72,7 @@
 
     <br>
     <input class="button button2" type="button" id="button2" value = "LEFT" style= "color: white" onclick="setColor('button2', '#2b9f02')" width="300px";/>
-      <button class="button button5"   value="click here" >.</button>
+      <button class="button button5" style="visibility: hidden;"  value="click here" >.</button>
 
     <input class="button button2" type="button" id="button3" value = "RIGHT" style= "color: white" onclick="setColor('button3', '#2b9f02')" width="300px";/>
         <br>
